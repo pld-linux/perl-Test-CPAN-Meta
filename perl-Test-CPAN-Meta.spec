@@ -55,6 +55,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes INSTALL README
+%dir %{perl_vendorlib}/Test/CPAN
 %{perl_vendorlib}/Test/CPAN/*.pm
 %{perl_vendorlib}/Test/CPAN/Meta
 %{_mandir}/man3/*
