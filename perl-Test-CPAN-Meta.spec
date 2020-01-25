@@ -4,7 +4,6 @@
 #
 %define		pdir	Test
 %define		pnam	CPAN-Meta
-%include	/usr/lib/rpm/macros.perl
 Summary:	Test::CPAN::Meta - Validate your CPAN META.yml files.
 Name:		perl-Test-CPAN-Meta
 Version:	0.25
